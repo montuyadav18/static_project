@@ -1,0 +1,142 @@
+/* Responsive */
+@media only screen and (max-width: 768px) {
+
+    .slider.slide-1,
+    .slider.slide-2,
+    .slider.slide-3,
+    .slider.slide-4 {
+        background-image: url(../images/slide-images/circle.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 40%;
+    }
+
+    .custom-btn {
+        margin-top: 450px;
+        padding: 20px 20px !important;
+    }
+
+    .navbar-brand img {
+        margin-top: -20px;
+        max-height: 80px;
+    }
+
+    .top-hand-modal {
+        display: none;
+    }
+
+    .slide-4 img {}
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        background: #c1bbbb;
+        align-items: center;
+        padding: 0px 0px;
+    }
+
+    .flower-right {
+        margin-top: -5rem;
+        right: -11px;
+        position: relative;
+    }
+
+    .our-usp {
+        display: none;
+    }
+
+    .see-what-our {
+        display: none;
+    }
+
+    .inner-sm {
+        display: none;
+    }
+
+    label {
+        padding: 12px;
+        margin: 10px;
+    }
+
+    .contact-btn {
+        margin: 20px;
+        margin-left: 20px;
+    }
+
+    .slider h2 {
+        font-size: 20px;
+    }
+
+    .slider h4 {
+        font-size: 16px;
+    }
+
+    .slider-content {
+        padding: 24px 15px 9px;
+    }
+
+    .slider-content h4,
+    h2 {
+        display: none;
+    }
+
+    .navigation {
+        padding: 0 2%;
+    }
+
+    .navigation-left {
+        display: none;
+    }
+
+    .number-pagination {
+        right: 2%;
+    }
+
+    .slider-pagination {
+        left: 2%;
+    }
+
+
+    .slider>img {
+        right: 2%;
+    }
+
+    .slide-1>img {
+        right: -110px;
+    }
+
+    .custom-bg-container::before {
+        height: 100%;
+        width: 100%;
+    }
+
+    .custom-foreground-img {
+        margin-top: 20%;
+        height: 80%;
+    }
+
+    .custom-row {
+        margin: -100px 50px 0px 50px;
+    }
+}
+
+/* --------------------------   below normal screen device  --------------------- */
+
+
+
+@media (max-width: 576px) {
+    .custom-bg-container::before {
+        height: 90%;
+        width: 90%;
+    }
+
+    .custom-foreground-img {
+        margin-top: 25%;
+        height: auto;
+    }
+
+    .custom-row {
+        margin: -50px 20px 0px 20px;
+    }
+}
